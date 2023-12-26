@@ -66,20 +66,20 @@ ul.menu {
     	width: 80; /* задаем ширину меню */
 }
 
-	ul.menu li {
-    		float: left; /* выстраиваем элементы списка горизонтально */
-		text-align: center;
-	}
+ul.menu li {
+    	float: left; /* выстраиваем элементы списка горизонтально */
+	text-align: center;
+}
 
-	ul.menu li a {
-    		display: inline-block; /* делаем ссылки блочными элементами */
-   		color: #fff; /* цвет текста ссылок */
-    		text-align: center; /* располагаем текст по центру ссылок */
-    		padding: 10px 10px; /* внутренние отступы ссылок */
-    		text-decoration: none; /* убираем подчеркивание ссылок */
-	}
+ul.menu li a {
+    	display: inline-block; /* делаем ссылки блочными элементами */
+   	color: #fff; /* цвет текста ссылок */
+    	text-align: center; /* располагаем текст по центру ссылок */
+    	padding: 10px 10px; /* внутренние отступы ссылок */
+    	text-decoration: none; /* убираем подчеркивание ссылок */
+}
 
-	ul.menu li a:hover {
-    		background-color: #fff; /* изменяем цвет фона при наведении на ссылку */
-		color: #000;
-	}
+ul.menu li a:hover {
+    	background-color: #fff; /* изменяем цвет фона при наведении на ссылку */
+	color: #000;
+}
